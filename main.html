@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <!---->
+    <!--Using Tailwind CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Other CSS Styling Files-->
+
+        <!--Fonts In Here-->
+        <link rel="stylesheet" href="fonts.css">
+
+    <!--Font Stuff-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--Fonts Under Here-->
+
+        <!--Bodini Moda SC ("bodoni-moda-sc")-->
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+        <!--Cardo ("cardo-regular") [regular, bold, regular-italic]-->
+        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        
+</head>
+
+<body style="overscroll-behavior-y: none;">
+
+    <!--Main title with image-->
+    <title-header>
+        <div class="relative mx-auto"> <!--Container-->
+            <img class="object-cover w-full" src="assets/title_cabin_image.png" alt="Cabin"> <!--Image behind text & formatting of it-->
+            <div class="absolute inset-0 flex items-center justify-center"> <!--Positioning of text-->
+                <t class="px-[3vw] py-[1.5vw] font-bold text-white bg-gray-700 bg-opacity-75 rounded-3xl bodoni-moda-sc" style="font-size: 7svw;">Apline Estates</t> <!--Title Text & Background-->
+            </div>
+        </div>
+    </title-header>
+
+    <hr class="py-[1vw] border-b-[1px] border-t-white border-gray-600 mx-[2vw]"> <!--Separating Line-->
+
+    <!--Section with description-->
+    <about_us>
+        <div class="mb-[30vw]"> <!--Container---->
+            <div class="grid h-[13vw] grid-cols-2 gap-[2vw] place-content-stretch"> <!--Flex using grid - divides page-->
+                <l class="py-[3vw] text-center pl-[2vw]"> <!--Left Flex-->
+                    <t class="bodoni-moda-sc" style="font-size: 2.5vw;"> <!--Top Segment-->
+                        About Us <!--Title-->
+                    </t>
+                    <b> <!--About us text & bottom segments-->
+                        <p class="px-[1vw] border border-black border-spacing-5 cardo-regular rounded-[5px]" style="font-size: 1.3vw;">In 1948, my Great Grandfather Sherman Williams Jr. founded Apline Estates, and since then, we have sold over three thousand homes to customers across the Appalachians. What started as a small family-owned real estate business has grown into a trusted name in the industry, committed to providing exceptional service and expertise in every transaction.
+
+                            For over seven decades, we’ve been deeply rooted in the Appalachian community, helping families find their perfect homes, whether it’s a charming mountain retreat or a cozy cottage in a nearby town. Our team prides itself on upholding the values of integrity, trust, and a personalized approach, ensuring each client feels supported throughout their journey.
+                            
+                            At Apline Estates, we understand that buying or selling a home is not just a transaction—it’s a life-changing experience. That’s why we go the extra mile, providing guidance, insight, and resources every step of the way. Our long-standing legacy is a testament to our commitment to excellence and our passion for helping people find their place in the beautiful Appalachian landscape.
+                            
+                            Whether you’re a first-time homebuyer or a seasoned investor, we’re here to turn your real estate dreams into reality. Welcome to Apline Estates—where tradition meets trust.</p>
+                    </b>
+                </l>
+                <r class="px-[10vw] py-[3vw]"> <!--Right Flex-->
+                    <img src="assets/man.png" class="rounded-lg"> <!--Image of Sherman Williams-->
+                </r>
+            </div>
+        </div>
+    </about_us>
+
+    <hr class="py-[1vw] border-b-[1px] border-t-white border-gray-600 mx-[2vw] mb-[2vw]"> <!--Separating Line-->
+
+    <!--About the staff section-->
+    <our-team>
+        <div class="bg-gray-800">
+            <div class="text-center text-white bodoni-moda-sc py-[1vw]" style="font-size: 2.5vw;">
+                <t>Meet The Team:</t>
+            </div>
+            <div>
+                <div class="grid grid-cols-4 gap-4 text-center text-white place-content-center place-items-center"> <!--Flex container using grid-->
+                    <div> <!--James-->
+                        <img src="assets/James.png" alt="James_Picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">James</t>
+                    </div>
+                    <div><!--David-->
+                        <img src="assets/David.png" alt="Harolds_Picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">David</t>
+                    </div>
+                    <div><!--Thompson-->
+                        <img src="assets/Thompson.png" alt="Thompson's_picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">Thompson</t>
+                    </div>
+                    <div><!--Alice-->
+                        <img src="assets/Alice.png" alt="Alice's_picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">Alice</t>
+                    </div>
+                    <div> <!--Empty Container for formatting reasons-->
+                    </div>
+                    <div><!--Richard-->
+                        <img src="assets/Richard.png" alt="Richard's_picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">Richard</t>
+                    </div>
+                    <div><!--Jeremy-->
+                        <img src="assets/Jeremy.png" alt="Jeremy's_picture" style="height: 15vw;" class="rounded-md">
+                        <t style="font-size: 1.3vw;">Jeremy</t>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </our-team>
+
+</body>
